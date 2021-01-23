@@ -12,9 +12,9 @@
 }
 
 @font-face {
-    font-family: "2015 Cruiser";
-    src: url("media/fonts/2015-Cruiser.otf") format("otf"),
-    url("media/fonts/2015-Cruiser.woff") format("woff");
+    font-family: "2015Cruiser";
+    src: url("media/fonts/2015-Cruiser.woff") format("woff"),
+    url("media/fonts/2015-Cruiser.otf") format("otf");
 }
 
 
@@ -57,7 +57,7 @@ a{
 
 .logo {
     color: var(--main-color);
-    font-family: "2015 Cruiser", sans-serif;
+    font-family: "2015Cruiser", sans-serif;
 }
 
 .logo a {
