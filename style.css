@@ -526,7 +526,7 @@ footer  nav  section.footer-news  div{
     /*FOOTER*/
 
     .footer-item{
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     .footer-news{
         margin: auto;
@@ -535,7 +535,7 @@ footer  nav  section.footer-news  div{
 
 }
 
-@media (max-width: 750px) {
+@media (max-width: 770px) {
 
     h1 {
         max-width: 50px;
