@@ -523,9 +523,14 @@ footer  nav  section.footer-news  div{
 
 
 
-
-
     /*FOOTER*/
+
+    .footer-item{
+        margin-bottom: 20px;
+    }
+    .footer-news{
+        margin: auto;
+    }
 
 
 }
