@@ -540,6 +540,123 @@ h3 {
 }
 
 
+
+
+
+@media (max-width: 1000px) {
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .hero-right {
+        display: none
+    }
+
+    .hero-left {
+        width: 100vw;
+
+    }
+
+    .hero {
+        margin: 0 2em;
+
+    }
+
+    .hero h1 {
+        text-align: start;
+        margin-top: 150px;
+        font-size: 30px;
+        color: var(--background-color);
+
+    }
+
+    .hero p {
+        text-align: start;
+        font-size: 14px;
+        color: var(--background-color);
+
+    }
+
+    .hero .button svg {
+        fill: var(--background-color);
+    }
+
+    .hero .button {
+        margin: 100px 0;
+        border-bottom: solid var(--background-color) 1px;
+    }
+
+    .hero .button span {
+        color: var(--background-color);
+    }
+
+    .hero .intro {
+        position: relative;
+    }
+
+    .mobile-video {
+        width: 100vw;
+        max-height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+    }
+
+    .logo a {
+        font-size: 18px;
+        color: var(--background-color);
+    }
+
+    .logo a aside {
+        font-size: 14px;
+        color: var(--background-color);
+    }
+
+    .scrolled a {
+        color: var(--main-color);
+    }
+
+    .scrolled a aside {
+        color: var(--main-color);
+    }
+
+    .shop-links {
+        flex-direction: column;
+        padding: 20px 50px;
+    }
+
+    .shop-left {
+        width: 100%;
+        height: 75vh;
+        margin-bottom: 20px;
+
+    }
+
+    .shop-right {
+        width: 100%;
+        height: 75vh;
+    }
+
+    .reassurance .content p {
+        margin: 0 150px;
+    }
+
+
+    /*FOOTER*/
+    .footer-item {
+        margin-bottom: 50px;
+    }
+
+    .footer-news {
+        margin: auto;
+    }
+
+
+}
+
+
 @media (max-width: 770px) {
 
     h1 {
@@ -694,122 +811,5 @@ h3 {
 
 
 }
-
-
-@media (max-width: 1000px) {
-
-    h2 {
-        font-size: 28px;
-    }
-
-    .hero-right {
-        display: none
-    }
-
-    .hero-left {
-        width: 100vw;
-
-    }
-
-    .hero {
-        margin: 0 2em;
-
-    }
-
-    .hero h1 {
-        text-align: start;
-        margin-top: 150px;
-        font-size: 30px;
-        color: var(--background-color);
-
-    }
-
-    .hero p {
-        text-align: start;
-        font-size: 14px;
-        color: var(--background-color);
-
-    }
-
-    .hero .button svg {
-        fill: var(--background-color);
-    }
-
-    .hero .button {
-        margin: 100px 0;
-        border-bottom: solid var(--background-color) 1px;
-    }
-
-    .hero .button span {
-        color: var(--background-color);
-    }
-
-    .hero .intro {
-        position: relative;
-    }
-
-    .mobile-video {
-        width: 100vw;
-        max-height: 100vh;
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
-    }
-
-    .logo a {
-        font-size: 18px;
-        color: var(--background-color);
-    }
-
-    .logo a aside {
-        font-size: 14px;
-        color: var(--background-color);
-    }
-
-    .scrolled a {
-        color: var(--main-color);
-    }
-
-    .scrolled a aside {
-        color: var(--main-color);
-    }
-
-    .shop-links {
-        flex-direction: column;
-        padding: 20px 50px;
-    }
-
-    .shop-left {
-        width: 100%;
-        height: 75vh;
-        margin-bottom: 20px;
-
-    }
-
-    .shop-right {
-        width: 100%;
-        height: 75vh;
-    }
-
-    .reassurance .content p {
-        margin: 0 150px;
-    }
-
-
-    /*FOOTER*/
-    .footer-item {
-        margin-bottom: 50px;
-    }
-
-    .footer-news {
-        margin: auto;
-    }
-
-
-}
-
-
-
 
 
