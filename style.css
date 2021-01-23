@@ -476,6 +476,7 @@ nav svg {
 
 .reassurance {
     display: flex;
+    flex-direction: column;
 }
 
 .shipement {
