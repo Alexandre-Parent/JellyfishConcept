@@ -149,12 +149,24 @@ table {
     border-spacing: 0;
 }
 
+
 h2 {
     color: var(--background-color);
     font-size: 30px;
     font-family: MuseoSansDisplay, sans-serif;
     text-align: start;
 }
+
+h3 {
+    font-size: 14px;
+    color: var(--main-color);
+    margin: 0;
+    font-family: MuseoSansDisplay, sans-serif;
+    font-weight: bold;
+    padding-bottom: 9px;
+    letter-spacing: 0.03em;
+}
+
 
 p {
     font-family: Karla, sans-serif;
@@ -486,7 +498,7 @@ nav svg {
 
 .reassurance h2 {
     color: var(--main-color);
-    margin: 50px 0;
+    margin: 50px 40px;
     text-align: center;
 }
 
@@ -524,24 +536,12 @@ footer a {
 }
 
 
-h3 {
-    font-size: 14px;
-    color: var(--main-color);
-    margin: 0;
-    font-family: MuseoSansDisplay, sans-serif;
-    font-weight: bold;
-    padding-bottom: 9px;
-    letter-spacing: 0.03em;
-}
 
 
 .footer-news div {
     margin-top: 20px;
 }
 
-{
-    padding: 0;
-}
 
 input{
     border: none;
@@ -550,137 +550,25 @@ input::placeholder{
 
 }
 
-
-
-
-
-
-@media (max-width: 1000px) {
-
-    h2 {
-        font-size: 28px;
-    }
-
-    .hero-right {
-        display: none
-    }
-
-    .hero-left {
-        width: 100vw;
-
-    }
-
-    .hero {
-        margin: 0 2em;
-
-    }
-
-    .hero h1 {
-        text-align: start;
-        margin-top: 150px;
-        font-size: 30px;
-        color: var(--background-color);
-
-    }
-
-    .hero p {
-        text-align: start;
-        font-size: 14px;
-        color: var(--background-color);
-
-    }
-
-    .hero .button svg {
-        fill: var(--background-color);
-    }
-
-    .hero .button {
-        margin: 100px 0;
-        border-bottom: solid var(--background-color) 1px;
-    }
-
-    .hero .button span {
-        color: var(--background-color);
-    }
-
-    .hero .intro {
-        position: relative;
-    }
-
-    .mobile-video {
-        width: 100vw;
-        max-height: 100vh;
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
-    }
-
-    .logo a {
-        font-size: 18px;
-        color: var(--background-color);
-    }
-
-    .logo a aside {
-        font-size: 14px;
-        color: var(--background-color);
-    }
-
-    .scrolled a {
-        color: var(--main-color);
-    }
-
-    .scrolled a aside {
-        color: var(--main-color);
-    }
-
-    .shop-links {
-        flex-direction: column;
-        padding: 20px 50px;
-    }
-
-    .shop-left {
-        width: 100%;
-        height: 75vh;
-        margin-bottom: 20px;
-
-    }
-
-    .shop-right {
-        width: 100%;
-        height: 75vh;
-    }
-
-    .reassurance .content p {
-        margin: 0 150px;
-    }
-
-
-    /*FOOTER*/
-    .footer-item {
-        margin-bottom: 50px;
-    }
-
-    .footer-news {
-        margin: auto;
-    }
-
-
-
-}
-
-
 @media (max-width: 770px) {
 
     h1 {
         max-width: 50px;
     }
 
+
+    .logo a {
+        font-size: 14px;
+    }
+
+    .logo a aside {
+        font-size: 10px;
+    }
+
     .main-header .menu-icon {
         display: block;
         margin: 0;
     }
-
 
     .icons {
         margin-top: 18px;
@@ -808,7 +696,6 @@ input::placeholder{
         margin-top: 30px;
     }
 
-
     /**/
     .reassurance .content {
         margin: 0 40px;
@@ -820,9 +707,130 @@ input::placeholder{
 
     .reassurance .content p {
         margin: 0;
+        font-size: 14px;
     }
 
 
 }
+
+
+@media (max-width: 1000px) {
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .hero-right {
+        display: none
+    }
+
+    .hero-left {
+        width: 100vw;
+
+    }
+
+    .hero {
+        margin: 0 2em;
+
+    }
+
+    .hero h1 {
+        text-align: start;
+        margin-top: 150px;
+        font-size: 30px;
+        color: var(--background-color);
+        padding-bottom: 30px;
+
+
+
+    }
+
+    .hero p {
+        text-align: start;
+        font-size: 14px;
+        color: var(--background-color);
+
+    }
+
+    .hero .button svg {
+        fill: var(--background-color);
+    }
+
+    .hero .button {
+        margin: 100px 0;
+        border-bottom: solid var(--background-color) 1px;
+    }
+
+    .hero .button span {
+        color: var(--background-color);
+    }
+
+    .hero .intro {
+        position: relative;
+    }
+
+    .mobile-video {
+        width: 100vw;
+        max-height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+    }
+
+    .logo a {
+        font-size: 18px;
+        color: var(--background-color);
+    }
+
+    .logo a aside {
+        font-size: 14px;
+        color: var(--background-color);
+    }
+
+    .scrolled a {
+        color: var(--main-color);
+    }
+
+    .scrolled a aside {
+        color: var(--main-color);
+    }
+
+    .shop-links {
+        flex-direction: column;
+        padding: 20px 50px;
+    }
+
+    .shop-left {
+        width: 100%;
+        height: 75vh;
+        margin-bottom: 20px;
+
+    }
+
+    .shop-right {
+        width: 100%;
+        height: 75vh;
+    }
+
+    .reassurance .content p {
+      max-width: 600px ;
+        line-height: 180%;
+    }
+
+
+    /*FOOTER*/
+    .footer-item {
+        margin-bottom: 50px;
+    }
+
+    .footer-news {
+        margin: auto;
+    }
+
+
+
+}
+
 
 
