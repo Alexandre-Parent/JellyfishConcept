@@ -619,6 +619,7 @@ input::placeholder {
         font-size: 2rem;
     }
 
+
     .menu-btn:checked ~ .text {
         opacity: 1;
         clip-path: inset(0 0 0 0%);
@@ -626,16 +627,20 @@ input::placeholder {
 
     .menu-btn:checked ~ .menu-icon .menu-icon__line {
         animation: openMid 0.8s forwards;
+        background: var(--main-color);
     }
 
     .menu-btn:checked ~ .menu-icon .menu-icon__line::before {
         animation: openTop 0.8s forwards;
+        background: var(--main-color);
     }
 
     .menu-btn:checked ~ .menu-icon .menu-icon__line::after {
         animation: openBot 0.8s forwards;
         display: contents;
+        color: var(--main-color);
     }
+
 
     .button svg {
         width: 10px;
