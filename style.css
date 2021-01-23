@@ -227,7 +227,6 @@ video {
     object-fit: cover;
     width: 100%;
     height: 100vh;
-
 }
 
 
@@ -274,6 +273,7 @@ h1 {
     padding-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .button svg {
@@ -536,19 +536,19 @@ footer a {
 }
 
 
-
-
 .footer-news div {
     margin-top: 20px;
 }
 
 
-input{
+input {
     border: none;
 }
-input::placeholder{
+
+input::placeholder {
 
 }
+
 
 @media (max-width: 770px) {
 
@@ -612,7 +612,6 @@ input::placeholder{
         background: var(--background-color);
         color: var(--main-color);
         transition: opacity .8s .5s, clip-path 1s .5s;
-
         clip-path: inset(0 0 0 95%);
     }
 
@@ -666,7 +665,6 @@ input::placeholder{
     .main-product {
         flex-direction: column-reverse;
         padding: 20px 0 0 0;
-
     }
 
     .product-description {
@@ -709,8 +707,6 @@ input::placeholder{
         margin: 0;
         font-size: 14px;
     }
-
-
 }
 
 
@@ -726,12 +722,10 @@ input::placeholder{
 
     .hero-left {
         width: 100vw;
-
     }
 
     .hero {
         margin: 0 2em;
-
     }
 
     .hero h1 {
@@ -740,9 +734,6 @@ input::placeholder{
         font-size: 30px;
         color: var(--background-color);
         padding-bottom: 30px;
-
-
-
     }
 
     .hero p {
@@ -814,7 +805,7 @@ input::placeholder{
     }
 
     .reassurance .content p {
-      max-width: 600px ;
+        max-width: 600px;
         line-height: 180%;
     }
 
@@ -827,8 +818,6 @@ input::placeholder{
     .footer-news {
         margin: auto;
     }
-
-
 
 }
 
