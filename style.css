@@ -489,6 +489,7 @@ nav svg {
 .reassurance {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20vh;
 }
 
 .shipement {
@@ -505,6 +506,16 @@ nav svg {
 .reassurance p {
     max-width: 1000px;
     font-size: 18px;
+}
+.reassurance .button  {
+    border-bottom: solid var(--text-color) 1px;
+
+}
+.reassurance .button a  {
+    color: solid var(--text-color) 1px;
+}
+.reassurance .button svg  {
+    fill: solid var(--text-color) 1px;
 }
 
 
@@ -712,6 +723,7 @@ input::placeholder {
         margin: 0;
         font-size: 14px;
     }
+
 }
 
 
@@ -794,7 +806,6 @@ input::placeholder {
 
     .shop-links {
         flex-direction: column;
-        padding: 20px 50px;
     }
 
     .shop-left {
